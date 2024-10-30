@@ -6,5 +6,5 @@ function sendMail(){
         message : document.getElementById("message").value,
     }
 
-    emailjs.send("service_etmm4kp","template_vq5u1cq",parms).then(alert("Email Sent!!!"))
+    emailjs.send("service_etmm4kp","template_vq5u1cq",parms).then(alert("Thank you for voting :)"))
 }
